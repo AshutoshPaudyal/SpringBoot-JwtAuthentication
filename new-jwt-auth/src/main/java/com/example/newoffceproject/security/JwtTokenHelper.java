@@ -43,7 +43,7 @@ public class JwtTokenHelper {
                 .setClaims(extraClaim)
                 .setSubject(userDetails.getUsername())
                 .setIssuedAt(new Date(System.currentTimeMillis()))
-                .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 *24)) //1000 millisecond + 24 hrs
+                .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60 *24)) //1000 millisecond + 24 hrs
                 .signWith(getSignInKey(), SignatureAlgorithm.HS256)
                 .compact();
     }

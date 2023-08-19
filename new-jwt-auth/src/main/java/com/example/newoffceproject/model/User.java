@@ -21,16 +21,22 @@ public class User implements UserDetails {
 
     @Column(name = "user_name",length = 100)
     private String name;
-
     private String email;
 
-    private String password;
+    private String phoneNumber;
+    private String enterPassword;
 
-    private String about;
+    private String confirmPassword;
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
+    }
+
+    @Override
+    public String getPassword() {
+        return this.confirmPassword;
     }
 
     @Override

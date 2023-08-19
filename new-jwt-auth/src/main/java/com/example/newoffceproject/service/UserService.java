@@ -1,14 +1,11 @@
 package com.example.newoffceproject.service;
 
-import com.example.newoffceproject.model.User;
-
-import java.util.List;
+import com.example.newoffceproject.dto.UserDto;
 
 public interface UserService {
 
-    User createUser(User user);
-    List<User> getAllUsers();
+    UserDto createUser(UserDto user);
 
-    User findById();
+
 
 }

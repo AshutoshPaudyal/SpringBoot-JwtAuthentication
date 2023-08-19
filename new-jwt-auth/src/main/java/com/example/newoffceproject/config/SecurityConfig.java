@@ -42,6 +42,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests()
                 .requestMatchers("/users/createUser").permitAll()
                 .requestMatchers("/login").permitAll()
+                .requestMatchers("/users/changePasswordOfUser/**").permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
