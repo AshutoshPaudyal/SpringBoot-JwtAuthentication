@@ -19,24 +19,22 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "user_name",length = 100)
+    @Column(name = "name",length = 100)
     private String name;
+
     private String email;
 
     private String phoneNumber;
-    private String enterPassword;
 
-    private String confirmPassword;
+    @Column()
+    private String password;
 
+    @Column(length = 10)
+    private String otp;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
-    }
-
-    @Override
-    public String getPassword() {
-        return this.confirmPassword;
     }
 
     @Override

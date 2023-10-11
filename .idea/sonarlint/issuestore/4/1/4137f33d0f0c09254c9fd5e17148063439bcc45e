@@ -1,0 +1,24 @@
+
+b
+java:S1128
+"@Remove this unused import 'org.springframework.http.HttpMethod'.(Ê¨Ä¡øÿÿÿÿ8ğ‡¥Ô£1
+m
+java:S1128"KRemove this unused import 'org.springframework.security.config.Customizer'.(Ïóœ¬ùÿÿÿÿ8ğ‡¥Ô£1
+x
+java:S1128"VRemove this unused import 'org.springframework.security.web.AuthenticationEntryPoint'.(Éªı»ùÿÿÿÿ8ğ‡¥Ô£1
+o
+java:S1128"MRemove this unused import 'org.springframework.security.web.csrf.CsrfFilter'.(—¼ş´ÿÿÿÿÿ8ğ‡¥Ô£1
+s
+java:S1128"QRemove this unused import 'org.springframework.web.cors.CorsConfigurationSource'.(ŒºÏøşÿÿÿÿ8ğ‡¥Ô£1
+{
+java:S1128"YRemove this unused import 'org.springframework.web.cors.UrlBasedCorsConfigurationSource'.(µ²İûùÿÿÿÿ8ñ‡¥Ô£1
+h
+java:S1128"FRemove this unused import 'org.springframework.web.filter.CorsFilter'.(¨­ŸØøÿÿÿÿ8ñ‡¥Ô£1
+}
+java:S1128"[Remove this unused import 'org.springframework.web.servlet.config.annotation.CorsRegistry'.(âÁ’©şÿÿÿÿ8ñ‡¥Ô£1
+
+java:S1128"_Remove this unused import 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'.(’µ¥Êÿÿÿÿÿ8ñ‡¥Ô£1
+O
+java:S1128!"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ñ‡¥Ô£1
+M
+java:S1128""+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ñ‡¥Ô£1

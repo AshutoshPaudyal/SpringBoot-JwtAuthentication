@@ -15,13 +15,10 @@ import org.springframework.stereotype.Service;
 public class CustomUserDetailsService implements UserDetailsService {
 
     private final UserRepo userRepo;
-
     //loading username from database by username
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        User user = userRepo.findByEmail(username)
-                .orElseThrow(() -> new ResourceNotFound("User", "email "+username));
-
-        return user;
+        return userRepo.findByEmail(username)
+                .orElseThrow(() -> new ResourceNotFound("User", "email",username));
     }
 }

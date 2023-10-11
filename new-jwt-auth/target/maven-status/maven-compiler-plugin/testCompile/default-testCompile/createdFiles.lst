@@ -1,0 +1,4 @@
+com\example\newoffceproject\repo\UserRepoTest.class
+com\example\newoffceproject\service\serviceimpl\UserServiceImplTest.class
+com\example\newoffceproject\NewOffceProjectApplicationTests.class
+com\example\newoffceproject\service\serviceimpl\UserServiceForSystemUserImplTest.class
